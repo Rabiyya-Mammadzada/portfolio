@@ -594,3 +594,10 @@ flex-wrap: wrap;
     max-width: 48%;
   }
 }
+
+@media screen and (max-width:768px){
+.object{
+flex: 0 0 100%;
+max-width:100%;
+}
+}
