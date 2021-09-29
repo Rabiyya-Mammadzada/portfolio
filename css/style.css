@@ -538,6 +538,7 @@ flex-wrap: wrap;
 }
 
 .btn-mobile{
+  display:none;
   color: #b84745;
 }
 @media screen and (max-width:991.98px){
@@ -593,6 +594,8 @@ flex-wrap: wrap;
     flex: 0 0 48%;
     max-width: 48%;
   }
+  .btn-mobile{
+    display:block;
 }
 
 @media screen and (max-width:768px){
