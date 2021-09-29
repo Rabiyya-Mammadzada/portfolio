@@ -8,10 +8,7 @@
   text-decoration: 0;
   font-family: 'Poppins', sans-serif;
 }
-.container {
-  display: flex;
-  justify-content: flex-end;
-}
+
 body{
  
   position: relative;
