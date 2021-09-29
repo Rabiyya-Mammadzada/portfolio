@@ -622,7 +622,7 @@ flex-wrap: wrap;
     margin: 20px 0;
   }
   .object{
-    flex: 0 0 48%;
-    max-width: 48%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
