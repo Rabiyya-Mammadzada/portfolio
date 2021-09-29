@@ -33,30 +33,24 @@ $(".theme-color li a").on("click", function (e) {
   e.preventDefault();
 });
 
-// $(".open-menu").click(function (e) {
 
-//     e.preventDefault()
-// })
-// $(".close-menu").click(function (e) {
-//     $(".side-bar").()
-//     e.preventDefault()
-// })
 
-// $(document.body).click(function () {
-//     if ((this).hasClass(".open")) {
-//         $(".side-bar").addClass("open")
-//     }
+const showMenu = (toggleId, navbarId, bodyId) => {
+  const toggle = document.getElementById(toggleId),
+    navbar = document.getElementById(navbarId),
+    bodypadding = document.getElementById(bodyId);
 
-// });
-$(".open-menu").click(function (e) {
-  if ($(window).width() <= 768) {
-    e.preventDefault();
-    $(".side-bar").show().fadeIn(1500).css("left", "200px");
-
-    $(".close-menu").click(function (e) {
-      e.preventDefault();
-      $(".side-bar").hide().fadeOut(2500).css("left", "0px");
+  if (toggle && navbar) {
+    toggle.addEventListener("click", () => {
+      // APARECER MENU
+      navbar.classList.toggle("show");
+      // ROTATE TOGGLE
+      toggle.classList.toggle("rotate");
+      // PADDING BODY
+      bodypadding.classList.toggle("expander");
     });
-      
   }
-});
+};
+showMenu("nav-toggle", "navbar", "body");
+
+
