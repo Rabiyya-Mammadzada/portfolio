@@ -67,6 +67,7 @@ nav ul li a {
   border-bottom: 1px solid #8eaebd;
   transition: 0.5s;
   font-weight: 500;
+  text-align:left;
 }
 nav ul li a:hover {
   width: 150px;
