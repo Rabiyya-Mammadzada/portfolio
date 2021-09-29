@@ -70,7 +70,7 @@ nav ul li a {
   text-align:left;
 }
 nav ul li a:hover {
-  width: 150px;
+  color:#8eaebd8f;
 }
 nav ul li a i {
   margin-right: 8px;
@@ -597,6 +597,9 @@ flex-wrap: wrap;
   }
   .btn-mobile{
     display:block;
+}
+  nav ul li a i {
+ font-size:25px;
 }
 
 @media screen and (max-width:768px){
