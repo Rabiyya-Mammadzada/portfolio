@@ -51,12 +51,7 @@ const showMenu = (toggleId, navbarId, bodyId) => {
     });
   }
   
-  $(document).click((event) => {
-    if(e.target.classList != navbar.attr('class'))
-    {
-         navbar.classList.removeClass("show");
-    }     
-});
+ 
 };
 showMenu("nav-toggle", "navbar", "body");
 
