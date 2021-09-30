@@ -33,10 +33,11 @@ body{
   transition: 0.5s;
 
 }
-.nav {
+.navbar {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content:center;
 
 }
 /* Logo+Text CSS */
@@ -61,9 +62,9 @@ body{
 .nav-toggle {
   position: absolute;
   top: 1.4rem;
-  right: -0.5rem;
-  width: 18px;
-  height: 18px;
+  right: -1.25rem;
+  width: 40px;
+  height: 40px;
   background-color: #b84745;
   border-radius: 50%;
   color: #031424;
