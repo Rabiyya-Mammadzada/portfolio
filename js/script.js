@@ -60,4 +60,11 @@ const showMenu = (toggleId, navbarId, bodyId) => {
 };
 showMenu("nav-toggle", "navbar", "body");
 
-
+$(document).mouseup(function (e) {
+  if ($(e.target).closest("#navbar").length
+              === 0) {
+    $("#navbar").removeClass("show");
+    $("#nav-toggle").removeClass("rotate")
+    $("#body").removeClass("expander")
+  }
+});
