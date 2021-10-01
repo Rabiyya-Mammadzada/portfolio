@@ -108,19 +108,22 @@ body{
   font-size: 1.5rem;
 }
 footer {
+  height: 100%;
   padding: 90px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .social-media {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-  height: 100%;
+  
 }
 .social-media a {
   display: inline-block;
-  font-size: 18px;
-  margin-right: 10px;
+  font-size: 40px;
+  margin: 0 20px;
   color: #8eaebd;
 }
 .copy {
