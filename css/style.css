@@ -110,7 +110,7 @@ body{
 
 
 footer {
-    height:100vh
+    height:100vh;
   padding: 90px 0;
   display: flex;
   justify-content: center;
@@ -124,8 +124,8 @@ footer {
 }
 .social-media a {
   display: inline-block;
-  font-size: 40px;
-  margin: 0 20px;
+  font-size: 20px;
+  margin: 0 10px;
   color: #8eaebd;
 }
 .copy {
