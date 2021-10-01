@@ -229,7 +229,7 @@ footer {
 }
 
 #about,
-#resume,#portfolio, #contact, #portfolio, #blog , #skills{
+#resume,#portfolio,  #portfolio, #blog , #skills{
   height: auto;
   background-color: #031424;
 }
