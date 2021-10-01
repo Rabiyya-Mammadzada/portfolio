@@ -116,6 +116,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+    background-color: #031424;
 }
 .social-media {
   display: flex;
