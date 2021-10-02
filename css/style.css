@@ -581,6 +581,11 @@ flex-wrap: wrap;
 .btn-mobile{
   color: #b84745;
 }
+@media screen and (min-width:1024px){
+.object{
+  flex: 0 0 25%;
+    max-width: 25%;
+  }}
 @media screen and (max-width:991.98px){
   .toggle{
     display: block;
