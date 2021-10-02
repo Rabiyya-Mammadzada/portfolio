@@ -587,6 +587,9 @@ flex-wrap: wrap;
     max-width: 25%;
   }}
 @media screen and (max-width:991.98px){
+  #about,#skills,#portfolio{
+  height:auto;
+}
   .toggle{
     display: block;
   }
