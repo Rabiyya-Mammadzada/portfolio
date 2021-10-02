@@ -236,6 +236,7 @@ footer {
 }
 #about,#skills,#portfolio{
   height:100vh;
+}
 #resume{
   padding-bottom: 50px;
 }
