@@ -233,6 +233,7 @@ footer {
 #resume,#portfolio,  #portfolio, #blog , #skills{
   height: auto;
   background-color: #031424;
+  min-height:100vh
 }
 /* #about,#skills,#portfolio{
   height:100vh;
