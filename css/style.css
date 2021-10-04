@@ -234,9 +234,9 @@ footer {
   height: auto;
   background-color: #031424;
 }
-#about,#skills,#portfolio{
+/* #about,#skills,#portfolio{
   height:100vh;
-}
+} */
 #resume{
   padding-bottom: 50px;
 }
