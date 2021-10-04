@@ -580,13 +580,18 @@ flex-wrap: wrap;
 }
 
 .btn-mobile{
+
   color: #b84745;
 }
 @media screen and (min-width:1024px){
 .object{
   flex: 0 0 25%;
     max-width: 25%;
-  }}
+  }
+.btn-mobile{
+  display:none;
+  }
+}
 @media screen and (max-width:991.98px){
   #about,#skills,#portfolio{
   height:auto;
