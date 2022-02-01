@@ -556,7 +556,10 @@ flex-wrap: wrap;
   max-width: 20%;
   padding: 10px;
 }
-
+.skill h4{
+  color:#fff;
+  text-align:center;
+}
 .skill img{
   width: 100%;
   height: 200px;
