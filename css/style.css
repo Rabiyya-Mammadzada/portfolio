@@ -92,6 +92,7 @@ body{
 .link-text {
   margin-left: 1.5rem;
   font-weight: 300;
+  white-space:nowrap;
 }
 .active {
   background-color: var(--second-color);
